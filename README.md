@@ -13,4 +13,4 @@ Pipeline created for classification modeling. Pipeline has two distinct parts:
     a. Precision Recall graph - interactive plotly graph<br/>
     b. ROC curve - interactive plotly graph<br/>
 
-Note :  For production purposes step two could be automated by applying the models in step one to the validation data and comparing F1 and ROC scores to check for overfitting and thresholding. The visual representation is more for personal use.
+Note: For production purposes step two could be automated by applying the models in step one to the validation data and comparing F1 and ROC scores to check for overfitting and thresholding. The visual representation is more for personal use.
