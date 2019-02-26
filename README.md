@@ -1,2 +1,16 @@
 # Classification-Pipeline
-Most recent example of Classification Pipeline. 
+Most recent example of Classification Pipeline.
+
+
+Pipeline created for classification modeling. Pipeline has two distinct parts:
+  1. Model creation - applied to training data
+    a. GridSearch - returns best parameters
+    b. Model fitting and scoring - returns model
+    c. Cross Validation - prints error metrics for user to review
+    d. Confusion Matrix - prints confusion matrix  and precision score for user to review
+
+  2. Model validation - applied to validation data so user can visually see the best threshold for each of the selected models
+    a. Precision Recall graph - interactive plotly graph 
+    b. ROC curve - interactive plotly graph
+
+Note :  For production purposes step two could be automated by applying the models in step one to the validation data and comparing F1 and ROC scores to check for overfitting and thresholding. The visual representation is more for personal use.
