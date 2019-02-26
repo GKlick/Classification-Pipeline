@@ -3,6 +3,9 @@
 # coding: utf-8
 
 # In[13]:
+#For the sake of time this pipeline was copied from another file, these imports are from that file. 
+#They may not all be relevant for this pipeline
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
